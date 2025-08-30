@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="get()">aa</button>
+    <script>
+        function get() {
+            console.log(window.innerHeight)
+            console.log(window.innerWidth)
+        }
+        if (window.innerHeight >= 720 && window.innerWidth >= 1200) {
+            window.location.href = "./homepc.html"
+        } else {
+            window.location.href = "./homemobile.html"
+        }
+        // 1800
+        // 800
+    </script>
+</body>
+</html>
